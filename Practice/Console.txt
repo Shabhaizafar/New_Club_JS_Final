@@ -1,0 +1,144 @@
+1. **Print Hello World**
+
+2. **Print a Number**
+
+3. **Print a Variable Value**
+
+4. **Print the Sum of Two Numbers**
+
+5. **Print a Concatenated String**
+
+6. **Print the Length of a String**
+
+7. **Print an Array**
+
+8. **Print the First Element of an Array**
+
+9. **Print a Boolean Value**
+
+10. **Print an Object**
+
+11. **Print the Value of an Object Property**
+
+12. **Print a Mathematical Expression**
+
+13. **Print a Function Call Result**
+
+14. **Print a Random Number**
+
+15. **Print the Current Date and Time**
+
+16. **Print the Type of a Variable**
+
+17. **Print a Null Value**
+
+18. **Print Undefined Value**
+
+19. **Print a String in Uppercase**
+
+20. **Print a String in Lowercase**
+//////////////////////////////
+
+1. **Print your favorite quote**
+
+2. **Print the result of subtracting two numbers**
+
+3. **Print a greeting message using a variable**
+
+4. **Print the result of multiplying two numbers**
+
+5. **Print a string with both single and double quotes**
+
+6. **Print the character at a specific index in a string**
+
+7. **Print the last element of an array**
+
+8. **Print the length of an array**
+
+9. **Print the result of a comparison operation (greater than)**
+
+10. **Print an array of numbers**
+
+11. **Print the sum of the first and last elements in an array**
+
+12. **Print the result of dividing two numbers**
+
+13. **Print a number to a fixed decimal place**
+
+14. **Print the minimum value from a set of numbers**
+
+15. **Print the maximum value from a set of numbers**
+
+16. **Print a boolean expression (using AND operator)**
+
+17. **Print a boolean expression (using OR operator)**
+
+18. **Print the result of concatenating an array and a string**
+
+19. **Print the square of a number**
+
+20. **Print the cube of a number**
+//////////////////////
+Sure, here is another set of 20 practice problems for `console.log()`:
+
+1. **Print your favorite quote**
+
+2. **Print the result of multiplying two numbers**
+
+3. **Print a string that includes a newline character**
+
+4. **Print an array of your top 3 favorite movies**
+
+5. **Print the second element in an array**
+
+6. **Print the result of a complex mathematical expression (e.g., (8 + 2) * (5 / 2))**
+
+7. **Print the type of a number**
+
+8. **Print the result of comparing two numbers (e.g., 5 > 3)**
+
+9. **Print a greeting message that includes a variable (e.g., "Hello, " + name)**
+
+10. **Print the length of an array**
+
+11. **Print the result of converting a string to a number**
+
+12. **Print a boolean value that represents whether a string includes a specific substring**
+
+13. **Print the result of a ternary operation**
+
+14. **Print the properties of an object on separate lines**
+
+15. **Print a formatted date (e.g., "2024-06-08")**
+
+16. **Print the character at a specific index in a string**
+
+17. **Print the result of adding an element to an array**
+
+18. **Print the keys of an object**
+
+19. **Print the square of a number using Math.pow()**
+
+20. **Print a reversed string**
+////////////////////////////////////Completed 
+
+1. **Print "Good Morning"**
+2. **Print the result of 7 multiplied by 6**
+3. **Print the value of a variable containing your age**
+4. **Print the result of subtracting 15 from 30**
+5. **Print the concatenation of "Good" and "Evening"**
+6. **Print the length of the string "JavaScript is fun!"**
+7. **Print an array of three different car brands**
+8. **Print the last element of an array**
+9. **Print the boolean value of an expression (e.g., 10 > 5)**
+10. **Print an object representing a book with properties: title, author, and year**
+11. **Print the value of the "author" property from the book object**
+12. **Print the result of dividing 20 by 4**
+13. **Print the result of a function that returns the square of 5**
+14. **Print a random integer between 1 and 50**
+15. **Print the current year**
+16. **Print the type of a number**
+17. **Print a null value explicitly**
+18. **Print an undefined value explicitly**
+19. **Print a string in reverse order**
+20. **Print a string with all vowels removed**

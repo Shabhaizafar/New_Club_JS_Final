@@ -1,0 +1,33 @@
+Array Initialization:
+Create an array with the following elements: "apple", "banana", "orange", "grape".
+
+Accessing Array Elements:
+Access and log the second element of the array created in the previous question.
+
+Array Length:
+Determine and log the length of the array created in the first question.
+
+Adding Elements to an Array:
+Add "kiwi" to the end of the array.
+Add "peach" to the beginning of the array.
+
+Removing Elements from an Array:
+Remove the last element from the array.
+Remove the first element from the array.
+
+Array Iteration:
+Loop through the array and log each element to the console.
+
+Array Methods:
+Use the join() method to join all elements of the array into a single string separated by commas.
+Use the indexOf() method to find the index of "orange" in the array.
+Use the slice() method to create a new array containing only the elements from index 1 to index 3.
+
+Array Manipulation:
+Reverse the order of the elements in the array.
+Sort the array alphabetically.
+Check if "banana" exists in the array.
+
+Array Mutation:
+Change the second element of the array to "pear".
+Swap the positions of "apple" and "banana" in the array.

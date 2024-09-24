@@ -1,0 +1,384 @@
+### Hello World Program
+1. Write a program to print "Hello, World!" to the console.
+2. Modify the "Hello, World!" program to include your name in the greeting.
+3. Print "Hello, Universe!" to the console.
+
+### Declare Variable Using `var`
+1. Declare a variable using `var` and assign it a value. Reassign the value and print it.
+2. Declare two `var` variables and swap their values.
+3. Declare a `var` variable, reassign it within a function, and print it both inside and outside the function.
+
+### More About Variables
+1. Declare variables using `var`, `let`, and `const`. Assign each a different value and print them.
+2. Try reassigning a `const` variable and observe the error.
+3. Declare a `let` variable inside a block and print it outside the block.
+4. Create a `const` object and modify one of its properties.
+5. Declare a `let` variable, reassign it within a loop, and print it both inside and outside the loop.
+
+### `let`
+1. Declare a variable using `let`, assign it a value, then change the value.
+2. Create a block scope using `{}` and declare a `let` variable inside it. Try accessing it outside the block.
+3. Use a `let` variable in a `for` loop and print its value inside and outside the loop.
+4. Declare a `let` variable inside a function and try accessing it outside the function.
+5. Use a `let` variable to hold a counter in a while loop and print the counter value after the loop.
+
+### `const`
+1. Declare a variable using `const` and assign it a value. Try changing the value and observe the error.
+2. Declare an array or object with `const` and modify its contents.
+3. Create a `const` object with nested properties and modify one of the nested properties.
+4. Declare a `const` variable inside a function and try reassigning it inside the function.
+5. Use `const` to declare a configuration object and access its properties in different functions.
+
+### String Indexing
+1. Create a string and access each character using its index.
+2. Write a function that returns the first and last character of a string.
+3. Access the middle character of a string.
+4. Write a function that takes a string and an index and returns the character at that index.
+5. Iterate through a string and print each character on a new line.
+
+### Useful String Methods
+1. Use the `length` property to find the length of a string.
+2. Convert a string to uppercase and lowercase.
+3. Trim the whitespace from a string.
+4. Find the position of a substring within a string.
+5. Replace a part of a string with another string.
+6. Split a string into an array of words.
+7. Concatenate two strings.
+8. Check if a string starts with a specific substring.
+9. Check if a string ends with a specific substring.
+10. Repeat a string multiple times.
+
+### Template Strings
+1. Use template strings to print a message that includes variables.
+2. Create a multi-line string using template strings.
+3. Use template strings to create a formatted address from separate variables.
+4. Write a function that takes a name and age and returns a greeting message using template strings.
+5. Use template strings to create an HTML snippet.
+
+### `null`, `undefined`, `BigInt`, `typeof`
+1. Declare variables with `null` and `undefined` values and check their types using `typeof`.
+2. Create a `BigInt` and perform an operation with it.
+3. Write a function that checks the type of a variable and returns a string describing its type.
+4. Declare a variable without assigning a value and check if it is `undefined`.
+5. Compare `null` and `undefined` using `==` and `===`.
+
+### Booleans and Comparison Operators
+1. Declare two boolean variables and use comparison operators to compare them.
+2. Write expressions using `==`, `===`, `!=`, and `!==` operators.
+3. Use the `<`, `>`, `<=`, and `>=` operators to compare numbers.
+4. Write a function that checks if a number is between two other numbers.
+5. Compare strings using comparison operators and explain the results.
+
+### Truthy and Falsy Values
+1. Write a function that takes a value and returns whether it is truthy or falsy.
+2. List out different values that are considered falsy in JavaScript.
+3. Write a function that takes an array of values and returns an array of truthy values.
+4. Check the truthiness of an empty object and an empty array.
+5. Use a truthy value in an `if` statement to print a message.
+
+### If Else Statement
+1. Write a program that uses an `if-else` statement to check if a number is positive, negative, or zero.
+2. Create a function that checks the age and prints whether the person is a minor or an adult.
+3. Write an `if-else` statement that checks if a string is empty or not.
+4. Use an `if-else` statement to print whether a number is even or odd.
+5. Write a function that takes a score and prints the corresponding grade (A, B, C, D, F).
+
+### Ternary Operator
+1. Rewrite the age-checking function using a ternary operator.
+2. Use a ternary operator to check if a number is even or odd.
+3. Create a function that returns "Yes" if a number is positive and "No" if it is not, using a ternary operator.
+4. Use a ternary operator to assign a default value to a variable if another variable is `null` or `undefined`.
+5. Write a function that takes a boolean value and returns "True" or "False" using a ternary operator.
+
+### `&&` and `||` Operator
+1. Write a program that checks if a number is between 10 and 20 using `&&`.
+2. Create a function that returns `true` if either of two conditions is met using `||`.
+3. Use `&&` to check if a string is not empty and its length is greater than 5.
+4. Write a function that checks if a number is positive and even using `&&`.
+5. Use `||` to provide a default value for a variable if it is falsy.
+
+### Nested If Else
+1. Write a program that categorizes a person's age group (child, teenager, adult, senior) using nested if-else statements.
+2. Create a function that evaluates multiple conditions using nested if-else.
+3. Write a function that checks a number and prints if it is positive, negative, or zero using nested if-else.
+4. Use nested if-else to check if a year is a leap year.
+5. Write a function that takes a score and prints the corresponding letter grade using nested if-else.
+
+### If Elseif Else
+1. Rewrite the age group categorization using `if-elseif-else` statements.
+2. Create a function that checks a student's grade and prints the corresponding letter grade (A, B, C, D, F).
+3. Write a function that takes a number and prints "Small", "Medium", or "Large" based on its value.
+4. Use `if-elseif-else` to determine the season based on the month number.
+5. Create a function that categorizes an item based on its price range using `if-elseif-else`.
+
+### Switch Statement
+1. Write a program that uses a switch statement to print the name of the day based on a number input (1 for Monday, 2 for Tuesday, etc.).
+2. Create a function that returns the corresponding month name based on a given month number (1 for January, 2 for February, etc.).
+3. Use a switch statement to categorize a person's age group (child, teenager, adult, senior) based on their age.
+4. Write a function that takes a grade letter and prints the corresponding GPA using a switch statement.
+5. Use a switch statement to print the name of the season based on the month number.
+
+### While Loop
+1. Write a program that prints numbers from 1 to 10 using a while loop.
+2. Create a function that sums all the numbers from 1 to a given number using a while loop.
+3. Write a while loop that prints the first 10 even numbers.
+4. Create a function that takes an array and prints each element using a while loop.
+5. Write a while loop that calculates the factorial of a given number.
+
+### While Loop Examples
+1. Modify the while loop to print even numbers from 1 to 20.
+2. Write a while loop that counts down from 10 to 1 and prints each number.
+3. Create a while loop that prints the Fibonacci sequence up to a given number.
+4. Write a while loop that finds the sum of all the even numbers from 1 to 100.
+5. Create a while loop that reverses a string.
+
+### For Loop
+1. Write a for loop to print numbers from 1 to 10.
+2. Create a for loop that prints the elements of an array.
+3. Write a for loop to print the multiplication table of a given number.
+4. Create a for loop that calculates the factorial of a given number.
+5. Use a for loop to iterate over an array of objects and print each object's properties.
+
+### For Loop Examples
+1. Write a for loop to print the multiplication table of a given number.
+2. Create a for loop that calculates the factorial of a given number.
+
+############################################################################################################
+
+### Hello World Program
+1. Write a program to print "Hello, JavaScript!" to the console.
+2. Modify the "Hello, World!" program to include your favorite quote.
+3. Create a function that returns "Hello, Function!" and print its result.
+4. Write a program to print "Hello, [Your City]!" to the console.
+5. Print "Welcome to JavaScript programming!" to the console.
+
+### Declare Variable Using `var`
+1. Declare a `var` variable and initialize it with a number. Print the variable.
+2. Declare a `var` variable and initialize it with a boolean. Print the variable.
+3. Declare a `var` variable, initialize it with a string, and then change it to a number. Print the variable.
+4. Declare multiple `var` variables in a single statement and print them.
+5. Declare a `var` variable inside a function and print it both inside and outside the function.
+
+### More About Variables
+1. Declare a variable using `var` inside a function and print it outside the function.
+2. Declare a variable using `let` inside a loop and print it outside the loop.
+3. Declare a variable using `const` and try to change its value within a block scope.
+4. Create an object with `const` and add a new property to it.
+5. Declare a variable using `var` and try to redeclare it using `let` in the same scope.
+
+### `let`
+1. Declare a `let` variable and initialize it with your age. Print the variable.
+2. Declare a `let` variable and initialize it with the current year. Print it and then update it to next year.
+3. Use a `let` variable inside a `for` loop to count from 1 to 5.
+4. Declare a `let` variable inside an `if` block and try to access it outside the block.
+5. Use `let` to declare a variable that holds an array and modify the array.
+
+### `const`
+1. Declare a `const` variable and initialize it with a string. Print the variable.
+2. Create a `const` array and add new elements to it.
+3. Declare a `const` object and change one of its properties.
+4. Use `const` to declare a variable that holds the result of a mathematical operation.
+5. Declare a `const` variable in a function and print it.
+
+### String Indexing
+1. Write a function that returns the second character of a string.
+2. Access and print the last character of a string using its index.
+3. Create a string and use a loop to print each character on a new line.
+4. Write a function that takes a string and an index and returns the character at that index, handling out-of-bounds indices.
+5. Write a function that reverses a string using indexing.
+
+### Useful String Methods
+1. Use `substring` to extract a part of a string.
+2. Use `slice` to create a new string from the 3rd to the 7th character.
+3. Use `includes` to check if a string contains a specific word.
+4. Use `split` to convert a string into an array of words and print the array.
+5. Use `join` to convert an array of words back into a string and print it.
+6. Use `charAt` to get the character at a specific index in a string.
+7. Use `indexOf` to find the position of the first occurrence of a substring.
+8. Use `lastIndexOf` to find the position of the last occurrence of a substring.
+9. Use `repeat` to repeat a string multiple times and print the result.
+10. Use `search` to find the position of a substring using a regular expression.
+
+### Template Strings
+1. Create a template string that includes your name and age.
+2. Use template strings to concatenate two strings.
+3. Create a multi-line template string with a quote on each line.
+4. Write a function that takes a first name and last name and returns a full name using template strings.
+5. Use template strings to create a sentence that includes the length of a string.
+
+### `null`, `undefined`, `BigInt`, `typeof`
+1. Declare a variable without initializing it and check if it is `undefined`.
+2. Assign `null` to a variable and check its type using `typeof`.
+3. Create a `BigInt` and use it in an addition operation with another `BigInt`.
+4. Write a function that takes any value and returns its type.
+5. Compare `null` and `undefined` using strict equality and explain the result.
+6. Declare a variable using `BigInt` and multiply it by another `BigInt`.
+7. Write a function that returns `null` and check its type.
+8. Compare `null` with `0` and explain the result.
+9. Declare a variable with `undefined` and try to add it to a number.
+10. Use `typeof` to check the type of an array, object, and function.
+
+### Booleans and Comparison Operators
+1. Write a function that takes two numbers and returns `true` if the first is greater than the second.
+2. Use `==` and `===` to compare `42` and `"42"`.
+3. Write a function that takes two strings and returns `true` if they are equal.
+4. Use `!=` and `!==` to compare `0` and `false`.
+5. Write a function that checks if a number is within a range (10 to 20) using comparison operators.
+6. Compare two boolean values using `==` and `===`.
+7. Write a function that checks if a string contains only uppercase letters.
+8. Use `<`, `<=`, `>`, and `>=` to compare two numbers and print the results.
+9. Compare two arrays using `==` and `===` and explain the result.
+10. Write a function that checks if a variable is a boolean using comparison operators.
+
+### Truthy and Falsy Values
+1. Write a function that returns `true` if a given value is truthy.
+2. List all falsy values in JavaScript.
+3. Write a function that filters out falsy values from an array.
+4. Check the truthiness of an empty string and print the result.
+5. Write a function that takes a value and returns a default value if it is falsy.
+6. Check the truthiness of `0` and print the result.
+7. Use an `if` statement to print a message only if a variable is truthy.
+8. Write a function that checks if an object is empty (has no properties).
+9. Check the truthiness of `NaN` and print the result.
+10. Use logical `||` to assign a default value to a variable if another variable is falsy.
+
+### If Else Statement
+1. Write a function that checks if a number is positive, negative, or zero.
+2. Use `if-else` to check if a string contains more than 10 characters.
+3. Write a function that checks if a person is eligible to vote based on their age.
+4. Use `if-else` to print whether a number is a multiple of 3.
+5. Write a function that checks if a value is `null` or `undefined`.
+6. Use `if-else` to check if a number is even or odd.
+7. Write a function that takes a temperature in Celsius and prints a message if it is above 30 degrees.
+8. Use `if-else` to check if a number is within a specific range.
+9. Write a function that checks if a password is strong (contains at least 8 characters, including numbers and special characters).
+10. Use `if-else` to print a message based on the value of a boolean variable.
+
+### Ternary Operator
+1. Rewrite a function that checks if a number is even or odd using a ternary operator.
+2. Use a ternary operator to assign a value to a variable based on a condition.
+3. Write a function that returns a default value if a given value is `null` or `undefined` using a ternary operator.
+4. Use a ternary operator to check if a string is empty and return a message.
+5. Write a function that takes a score and returns "Pass" or "Fail" using a ternary operator.
+6. Use a ternary operator to set a variable to `true` if a number is positive, otherwise `false`.
+7. Rewrite an `if-else` statement that checks if a number is within a range using a ternary operator.
+8. Use a ternary operator to print a message based on the value of a boolean variable.
+9. Write a function that returns the larger of two numbers using a ternary operator.
+10. Use a ternary operator to format a string based on a condition.
+
+### `&&` and `||` Operator
+1. Write a function that checks if a number is within a range (10 to 20) using `&&`.
+2. Use `||` to set a default value for a variable if another variable is falsy.
+3. Write a function that returns `true` if either of two conditions is met using `||`.
+4. Use `&&` to check if a string is not empty and its length is greater than 5.
+5. Write a function that checks if a number is positive and even using `&&`.
+6. Use `||` to provide a fallback value for a variable if it is `null` or `undefined`.
+7. Write a function that checks if a user is logged in and has the required permissions using `&&`.
+8. Use
+
+ `||` to print a message if a variable is falsy.
+9. Write a function that returns `true` if a number is either negative or greater than 100 using `||`.
+10. Use `&&` to combine multiple conditions in an `if` statement.
+
+### Nested If Else
+1. Write a function that categorizes a person's age group (child, teenager, adult, senior) using nested if-else statements.
+2. Create a function that evaluates multiple conditions using nested if-else.
+3. Write a function that checks a number and prints if it is positive, negative, or zero using nested if-else.
+4. Use nested if-else to check if a year is a leap year.
+5. Write a function that takes a score and prints the corresponding letter grade using nested if-else.
+6. Use nested if-else to determine the type of a triangle (equilateral, isosceles, scalene) based on its sides.
+7. Write a function that categorizes an item based on its price range using nested if-else.
+8. Use nested if-else to check the state of an order (processing, shipped, delivered, canceled) based on its status code.
+9. Write a function that checks the weather condition and prints appropriate clothing advice using nested if-else.
+10. Use nested if-else to determine the appropriate shipping cost based on the weight of a package.
+
+### If Elseif Else
+1. Rewrite the age group categorization using `if-elseif-else` statements.
+2. Create a function that checks a student's grade and prints the corresponding letter grade (A, B, C, D, F).
+3. Write a function that takes a number and prints "Small", "Medium", or "Large" based on its value.
+4. Use `if-elseif-else` to determine the season based on the month number.
+5. Create a function that categorizes an item based on its price range using `if-elseif-else`.
+6. Write a function that determines the type of vehicle (car, motorcycle, bicycle, truck) based on the number of wheels.
+7. Use `if-elseif-else` to print a message based on the value of a variable (red, green, blue).
+8. Write a function that checks a person's BMI and prints the corresponding category (underweight, normal, overweight, obese) using `if-elseif-else`.
+9. Use `if-elseif-else` to check the grade of a student and print a message based on the grade.
+10. Write a function that takes a temperature and prints the corresponding weather condition (cold, warm, hot) using `if-elseif-else`.
+
+### Switch Statement
+6. Create a function that returns the name of a fruit based on a number input (1 for apple, 2 for banana, etc.) using a switch statement.
+7. Write a program that uses a switch statement to print a message based on the traffic light color (red, yellow, green).
+8. Use a switch statement to determine the type of a character (vowel, consonant, digit, special character).
+9. Write a function that prints a message based on the day of the week using a switch statement.
+10. Use a switch statement to categorize an item based on its type (electronics, clothing, food, furniture).
+
+### While Loop
+1. Write a program that prints numbers from 1 to 10 using a while loop.
+2. Create a function that sums all the numbers from 1 to a given number using a while loop.
+3. Write a while loop that prints the first 10 even numberswhat.
+4. Create a function that takes an array and prints each element using a while loop.
+5. Write a while loop that calculates the factorial of a given number.
+6. Use a while loop to reverse a string.
+7. Write a while loop that prints all the elements of an array.
+8. Create a function that finds the maximum number in an array using a while loop.
+9. Write a while loop that prints the Fibonacci sequence up to a given number.
+10. Use a while loop to print the multiplication table of a given number.
+
+### While Loop Examples
+1. Modify the while loop to print even numbers from 1 to 20.
+2. Write a while loop that counts down from 10 to 1 and prints each number.
+3. Create a while loop that prints the Fibonacci sequence up to a given number.
+4. Write a while loop that finds the sum of all the even numbers from 1 to 100.
+5. Create a while loop that reverses a string.
+6. Write a while loop that prints all the prime numbers between 1 and 50.
+7. Create a while loop that prints the digits of a number in reverse order.
+8. Write a while loop that prints the sum of the digits of a number.
+9. Use a while loop to find the greatest common divisor (GCD) of two numbers.
+10. Write a while loop that counts the number of vowels in a string.
+
+### For Loop
+1. Write a for loop to print numbers from 1 to 10.
+2. Create a for loop that prints the elements of an array.
+3. Write a for loop to print the multiplication table of a given number.
+4. Create a for loop that calculates the factorial of a given number.
+5. Use a for loop to iterate over an array of objects and print each object's properties.
+6. Write a for loop to print the first 10 odd numbers.
+7. Create a for loop that prints the elements of a matrix (2D array).
+8. Write a for loop that finds the sum of all elements in an array.
+9. Use a for loop to find the maximum number in an array.
+10. Create a for loop that prints the reverse of a string.
+
+### For Loop Examples
+1. Write a for loop to print the multiplication table of a given number.
+2. Create a for loop that calculates the factorial of a given number.
+3. Write a for loop that prints the first 10 prime numbers.
+4. Use a for loop to print the characters of a string in reverse order.
+5. Create a for loop that finds the sum of the digits of a number.
+6. Write a for loop that prints the elements of an array in reverse order.
+7. Use a for loop to find the average of an array of numbers.
+8. Create a for loop that prints the elements of an array of objects.
+9. Write a for loop that prints the squares of numbers from 1 to 10.
+10. Use a for loop to print the elements of a 2D array in matrix form.
+
+### Break and Continue Keyword
+1. Write a for loop that uses `break` to exit the loop when a specific condition is met.
+2. Write a for loop that uses `continue` to skip even numbers and print only odd numbers.
+3. Use `break` in a while loop to exit the loop when a specific condition is met.
+4. Write a for loop that uses `continue` to skip elements that are `null` or `undefined`.
+5. Create a function that uses `break` to find the first prime number in an array.
+6. Write a while loop that uses `break` to stop when a specific value is found.
+7. Use `continue` in a for loop to skip over negative numbers in an array.
+8. Write a for loop that uses `break` to exit the loop when the sum of elements exceeds a specific value.
+9. Create a function that uses `continue` to filter out even numbers from an array.
+10. Write a while loop that uses `break` to stop when a string contains a specific character.
+
+### Do While Loop
+1. Write a do-while loop that prints numbers from 1 to 10.
+2. Create a function that uses a do-while loop to prompt the user until they enter a valid password.
+3. Write a do-while loop that prints the elements of an array.
+4. Use a do-while loop to print the Fibonacci sequence up to a given number.
+5. Create a do-while loop that calculates the factorial of a given number.
+6. Write a do-while loop that prints the sum of the digits of a number.
+7. Use a do-while loop to find the maximum number in an array.
+8. Create a do-while loop that prints the first 10 even numbers.
+9. Write a do-while loop that finds the sum of all elements in an array.
+10. Use a do-while loop to reverse a string.

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main{          
+            background-color: rgb(40, 46, 56);
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 1px 2px 6px 6px rgb(150, 148, 148);
+        } 
+        .txt{
+            width: 300px;
+            height: 50px;
+            text-align: right;
+            font-size: larger;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: darkblue;
+        }
+        .m2{
+            margin-top: 55px;
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(5,1fr);
+            
+        }
+        .bt{
+            box-shadow: 1px 2px 5px 3px rgba(190, 189, 189, 0.725);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background-color:rgb(40, 46, 56);
+            border: none;
+            color: white;
+            font-size: larger;
+        }
+        #eq{
+            background-color: orange;
+        }
+        #green{
+            color: greenyellow;
+        }
+        .dis2{
+            width: 300px;
+            text-align: right;
+            font-size: 14px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: gray;
+            background-color: transparent;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <input type="text" class="dis2" value="" readonly>
+        <input type="text" class="txt" value="0" readonly>
+        <div class="m2">
+
+            <input type="button" onclick="resetAll()" value="AC" class="bt" id="green">
+            <input type="button" onclick="getdata('DEL')" value="DEL" class="bt" id="green">
+            <input type="button" onclick="getdata('%')" value="%" class="bt" id="green">
+            <input type="button" onclick="getdata('/')" value="/" class="bt" id="green">
+            <input type="button" onclick="getdata('7')" value="7" class="bt">
+            <input type="button" onclick="getdata('8')" value="8" class="bt">
+            <input type="button" onclick="getdata('9')" value="9" class="bt">
+            <input type="button" onclick="getdata('*')" value="*" class="bt" id="green">
+            <input type="button" onclick="getdata('4')" value="4" class="bt">
+            <input type="button" onclick="getdata('5')" value="5" class="bt">
+            <input type="button" onclick="getdata('6')" value="6" class="bt">
+            <input type="button" onclick="operation('-')" value="-" class="bt" id="green">
+            <input type="button" onclick="getdata('1')" value="1" class="bt">
+            <input type="button" onclick="getdata('2')" value="2" class="bt">
+            <input type="button" onclick="getdata('3')" value="3" class="bt">
+            <input type="button" onclick="operation('+')" value="+" class="bt" id="green">
+            <input type="button" onclick="getdata('00')" value="00" class="bt">
+            <input type="button" onclick="getdata('0')" value="0" class="bt">
+            <input type="button" onclick="getdata('.')" value="." class="bt" >
+            <input type="button" onclick="output('=')" value="=" class="bt" id="eq">   
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
+
+
+<!-- 
+enter String : abc
+
+
+abc   acb  
+bca   bac
+cab   cba
+-->
