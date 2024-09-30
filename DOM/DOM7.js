@@ -16,5 +16,5 @@ submit.addEventListener('click',
         tr1.appendChild(td1);
         t1.appendChild(tr1);
         console.log(t1);
-    });
+});
 
