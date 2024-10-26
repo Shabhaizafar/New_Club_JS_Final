@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #cccccc;
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 1fr auto;
+            padding: 20px 10px;
+            gap: 20px;
+        }
+        .painter{
+            background-color: white;
+            border-radius: 10px;
+        }
+        .ok{
+            padding: 20px;
+            text-align: right;
+        }
+        .ok button{
+            color: white;
+            background-color: lime;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .tool{
+            display: flex;
+            align-items: center;
+            padding: 20px 20px 20px 50px;
+            gap: 30px;
+            border-bottom: 1px solid gray;
+        }
+        .clr{
+            width: 500px;
+            display: flex;
+            flex-grow: .6;
+        }
+        .clr button{
+            height: 25px;
+            flex-grow: 1;
+            border: 1px solid gainsboro;
+        }
+        .clr button.outline{
+            outline: 1px solid black;
+            outline-offset: -1px;
+        }
+        .undo-redo{
+            width: 60px;
+            display: flex;
+            flex-grow: .8;
+
+        }
+        .undo-redo input{
+            width: 50px;
+        }
+        .clear{
+            flex-grow: .7;
+        }
+        .clear input{
+            padding: 5px 10px;
+        }
+        .cross{
+            width: 20px;
+            background-color: red;
+        }
+        .cross input{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section class="painter">
+        <main class="tool">
+            <div class="clr">
+                <button  style="background-color: red;" value="red"></button>
+                <button  style="background-color: blue;" value="blue"></button>
+                <button style="background-color: green;" value="green"></button>
+                <button style="background-color: yellow;" value="yellow"></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div class="undo-redo">
+                <input type="button">
+                <input type="button">
+            </div>
+            <div class="clear">
+                <input type="button" value="Clear">
+            </div>
+            <div class="cross">
+                <input type="button">
+            </div>
+        </main>
+        <main class="paint-main">
+           <div></div>
+           <div></div>
+        </main>
+    </section>
+    <section class="ok">
+        <button>OK</button>
+    </section>
+
+    <script src="Paint.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            width: 400px;
+            height: 400px;
+            background-color: lightsteelblue;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        section{
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        button{
+            color: darkred;
+            background-color: lightseagreen;
+            padding: 5px 20px;
+            border: none;
+            font-family: cursive;
+            font-size: 24px;
+            border-radius: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+
+    </div>
+    <section>
+        <button class="pvs">PREVIOUS</button>
+        <button class="nxt">NEXT</button>
+        <button class="stop">STOP</button>
+        <button class="start">START</button>
+
+    </section>
+
+    <script src="All.js"></script>
+</body>
+</html>
