@@ -4,8 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        section{
+            width: fit-content;
+            height: 300px;
+            display: flex;
+            gap: 20px;
+            position: fixed;
+            top: 30%;
+            left: calc(50% - 310px);
+        }
+        section>main{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: 100% 100%;
+        }
+        article{
+            position: fixed;
+            top: calc(30% + 350px);
+            left: calc(50% - 100px);
+        }
+        button{
+            color: lightcyan;
+            background-color: darkslateblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    
+    <section>
+        <main class="u-choice"></main>
+        <main class="c-choice"></main>
+    </section>
+
+    <article>
+        <button onclick="btnclick('rock')">Rock</button>
+        <button onclick="btnclick('paper')">Paper</button>
+        <button onclick="btnclick('scissor')">Scissor</button>
+    </article>
+    <script src="Extra.js"></script>
 </body>
 </html>
