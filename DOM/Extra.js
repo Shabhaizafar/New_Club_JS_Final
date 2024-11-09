@@ -15,7 +15,7 @@ function btnclick(value){
         c_main.style.backgroundImage = `${Arr[parseInt(Math.random()*3)]}`;
     }
 
-
+    
     if(u_main.style.backgroundImage.valueOf() != c_main.style.backgroundImage.valueOf()){
         //r and s
         if(u_main.style.backgroundImage.valueOf().length==15 && c_main.style.backgroundImage.valueOf().length==18){

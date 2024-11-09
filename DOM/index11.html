@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert adjacent elements</title>
+    <style>
+        /* div p{
+            color: red;
+        } */
+         h1+p{
+            color: red;
+         }
+    </style>
+</head>
+<body>
+    <table border="">
+        <tr>
+            <th>SR No.</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+    </table>
+    <button onclick="clickFu()">Click Here</button>
+    <!-- <div>
+        <p>CSS1</p>
+        <h1>HTML</h1>
+        <p>CSS</p>
+        <p>CSS2</p>
+        <h2>NewOne</h2>
+        <p>ALLOne</p>
+    </div> -->
+
+    <script>
+        var table = document.querySelector('table');
+        function clickFu(){
+        var tr = document.createElement('tr');
+        for (let i = 0; i < 3; i++) {
+            var td = document.createElement('td');
+            tr.appendChild(td);
+        }
+        table.appendChild(tr);
+        }
+    </script>
+</body>
+</html>
