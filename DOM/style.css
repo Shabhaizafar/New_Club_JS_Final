@@ -176,3 +176,10 @@ th,td{
 .bg-blue{
   background-color: #000;
 }
+
+
+/* //////////////// */
+.completed{
+    color: grey;
+    text-decoration: line-through;
+}

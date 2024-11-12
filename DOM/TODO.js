@@ -3,13 +3,13 @@ const btn = document.querySelector('.form-todo .btn');
 const ul = document.getElementsByClassName('todo-list')[0];
 const fistli = document.querySelector('.todo-list li').innerHTML;
 
-
 btn.addEventListener('click',function(event){
     event.preventDefault();
     var newtxt = document.getElementById('usertxt').value;
     var span = document.createElement('span');
     //new Li
     var newLi = document.createElement('li');
+    if(newtxt!=""){
     span.innerHTML = newtxt;
     newLi.appendChild(span);
     newLi.innerHTML += `<div class="todo-buttons">
@@ -17,10 +17,20 @@ btn.addEventListener('click',function(event){
             <button class="todo-btn remove">Remove</button>
             <button class="todo-btn update">Update</button>
           </div>`;
-    console.log(newLi);
     ul.appendChild(newLi);
+    document.getElementById('usertxt').value = "";
+  }
 });
 
+
+// console.log(document.querySelector('.done').parentNode.parentElement.childNodes);  X
+
+ul.addEventListener('click',function(event){
+
+    if(event.target.classList.contains('done')){
+      event.target.parentElement.parentElement.firstElementChild.classList.add('completed');
+    }
+});
 //same Child
 // var newli = document.createElement('li');
 //     newli.innerHTML = fistli;
