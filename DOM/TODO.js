@@ -23,12 +23,22 @@ btn.addEventListener('click',function(event){
 });
 
 
-// console.log(document.querySelector('.done').parentNode.parentElement.childNodes);  X
 
 ul.addEventListener('click',function(event){
 
     if(event.target.classList.contains('done')){
       event.target.parentElement.parentElement.firstElementChild.classList.add('completed');
+    }
+    else if(event.target.classList.contains('remove')){
+      if(event.target.parentElement.parentElement.firstElementChild.classList.contains('completed')){
+        event.target.parentElement.parentElement.remove();
+      }
+    }
+    else if(event.target.classList.contains('update')){
+        var newText = prompt("Enter the new Value : ");
+        if(newText!=null){
+          event.target.parentElement.parentElement.firstElementChild.innerHTML = newText;
+        } 
     }
 });
 //same Child
