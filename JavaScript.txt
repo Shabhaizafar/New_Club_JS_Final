@@ -154,12 +154,12 @@
    ✅ How event listener works.
    ✅ Practice with events.
    ✅ Create demo project.
-   - More events.
+   ✅ More events.
    ✅ Event bubbling.
    ✅ Event Capturing.
    ✅ Event delegation.
-   - Create Project using event delegation.
-   // -todo List 
+   ✅ Create Project using event delegation.
+   // ✅ todo List 
       //add,confirmation,remove
 
 => Asynchronous JavaScript :-
