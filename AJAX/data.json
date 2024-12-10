@@ -1,0 +1,162 @@
+{
+    "1": {
+        "name": "Sophia Lee",
+        "age": 18,
+        "gender": "Female",
+        "email": "sophialee@example.com",
+        "grade": "A",
+        "major": "Literature"
+    },
+    "2": {
+        "name": "Liam Johnson",
+        "age": 19,
+        "gender": "Male",
+        "email": "liamjohnson@example.com",
+        "grade": "B",
+        "major": "Physics"
+    },
+    "3": {
+        "name": "Olivia Martinez",
+        "age": 20,
+        "gender": "Female",
+        "email": "oliviamartinez@example.com",
+        "grade": "A",
+        "major": "Mathematics"
+    },
+    "4": {
+        "name": "Noah Wilson",
+        "age": 21,
+        "gender": "Male",
+        "email": "noahwilson@example.com",
+        "grade": "C",
+        "major": "Engineering"
+    },
+    "5": {
+        "name": "Emma Davis",
+        "age": 18,
+        "gender": "Female",
+        "email": "emmadavis@example.com",
+        "grade": "B",
+        "major": "History"
+    },
+    "6": {
+        "name": "James Clark",
+        "age": 22,
+        "gender": "Male",
+        "email": "jamesclark@example.com",
+        "grade": "A",
+        "major": "Computer Science"
+    },
+    "7": {
+        "name": "Isabella Moore",
+        "age": 20,
+        "gender": "Female",
+        "email": "isabellamoore@example.com",
+        "grade": "A",
+        "major": "Chemistry"
+    },
+    "8": {
+        "name": "Ethan Taylor",
+        "age": 19,
+        "gender": "Male",
+        "email": "ethantaylor@example.com",
+        "grade": "B",
+        "major": "Art"
+    },
+    "9": {
+        "name": "Mia Anderson",
+        "age": 21,
+        "gender": "Female",
+        "email": "miaanderson@example.com",
+        "grade": "C",
+        "major": "Political Science"
+    },
+    "10": {
+        "name": "Alexander Thomas",
+        "age": 20,
+        "gender": "Male",
+        "email": "alexanderthomas@example.com",
+        "grade": "B",
+        "major": "Economics"
+    },
+    "11": {
+        "name": "Ava Hernandez",
+        "age": 19,
+        "gender": "Female",
+        "email": "avahernandez@example.com",
+        "grade": "A",
+        "major": "Psychology"
+    },
+    "12": {
+        "name": "Daniel White",
+        "age": 22,
+        "gender": "Male",
+        "email": "danielwhite@example.com",
+        "grade": "C",
+        "major": "Environmental Science"
+    },
+    "13": {
+        "name": "Charlotte Harris",
+        "age": 18,
+        "gender": "Female",
+        "email": "charlotteharris@example.com",
+        "grade": "B",
+        "major": "Sociology"
+    },
+    "14": {
+        "name": "Benjamin Martin",
+        "age": 21,
+        "gender": "Male",
+        "email": "benjaminmartin@example.com",
+        "grade": "A",
+        "major": "Philosophy"
+    },
+    "15": {
+        "name": "Amelia Lewis",
+        "age": 20,
+        "gender": "Female",
+        "email": "amelialewis@example.com",
+        "grade": "C",
+        "major": "Law"
+    },
+    "16": {
+        "name": "Elijah Walker",
+        "age": 22,
+        "gender": "Male",
+        "email": "elijahwalker@example.com",
+        "grade": "B",
+        "major": "Music"
+    },
+    "17": {
+        "name": "Sophia Young",
+        "age": 19,
+        "gender": "Female",
+        "email": "sophiayoung@example.com",
+        "grade": "A",
+        "major": "Business"
+    },
+    "18": {
+        "name": "Henry Hall",
+        "age": 20,
+        "gender": "Male",
+        "email": "henryhall@example.com",
+        "grade": "B",
+        "major": "Astronomy"
+    },
+    "19": {
+        "name": "Harper Scott",
+        "age": 21,
+        "gender": "Female",
+        "email": "harperscott@example.com",
+        "grade": "A",
+        "major": "Anthropology"
+    },
+    "20": {
+        "name": "Jack Adams",
+        "age": 22,
+        "gender": "Male",
+        "email": "jackadams@example.com",
+        "grade": "C",
+        "major": "Geography"
+    }
+}
