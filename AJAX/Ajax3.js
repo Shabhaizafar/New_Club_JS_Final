@@ -1,4 +1,5 @@
 const btn = document.querySelector('button');
+const table = document.querySelector('table');
 btn.addEventListener('click',function(event){
     event.preventDefault();
     
@@ -11,11 +12,26 @@ btn.addEventListener('click',function(event){
             // console.log(key,obj[key].name);
             if(fname == obj[key].name){
                 console.log(obj[key]);
-                document.querySelector('div').innerHTML += "{"+'<br>';
+                // document.querySelector('div').innerHTML += "{"+'<br>';
+                // for (const key2 in obj[key]) {
+                    // document.querySelector('div').innerHTML += `${key2} : ${obj[key][key2]},<br>`;
+                    // console.log(table);
+                // }
                 for (const key2 in obj[key]) {
-                    document.querySelector('div').innerHTML += `${key2} : ${obj[key][key2]},<br>`;
+                    var tr = document.createElement('tr');
+                    var td = document.createElement('td');
+                    var th = document.createElement('th');
+                    th.innerHTML = key2;
+                    td.innerHTML = obj[key][key2];
+
+                    tr.appendChild(th);
+                    tr.appendChild(td);
+                    table.append(tr);
                 }
-                document.querySelector('div').innerHTML += "}"+'<br>';
+
+                table.classList.add('bd');
+                console.log(table);
+                // document.querySelector('div').innerHTML += "}"+'<br>';
                 break;
             }
         }
