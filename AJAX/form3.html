@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #1a1a1a;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        form{
+            background-color: rgb(205, 201, 201);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input{
+            border: none;
+            border-bottom: 2px solid blue;
+            background-color: transparent;
+            color: darkslategrey;
+            font-size: 20px;
+            font-family: calibri;
+            padding: 10px 5px;
+        }
+        input:focus{
+            outline: none;
+            border-bottom: 2px solid lime;
+        }
+        ::placeholder{
+            color: darkslategrey;
+        }
+        button{
+            display: block;
+            margin: auto;
+            color: darkslateblue;
+            font-family: monospace;
+            font-size: 24px;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        div{
+            background-color: lightgray;
+            width: 50%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        tr,td,th{
+            border: 2px solid blue;
+        }
+        .bd{
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <button>Send</button>
+    </form>
+    <div>
+        <table>
+
+        </table>
+    </div>
+
+    <script src="form3.js"></script>
+</body>
+</html>
