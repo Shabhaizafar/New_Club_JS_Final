@@ -26,4 +26,4 @@
 //   "<br>Longitude: " + position.coords.longitude;
 // }
 
-console.log(navigator);
+// console.log(navigator);

@@ -4,11 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            background-color: darkslategray;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        form{
+            background-color: lightskyblue;
+            width: 40%;
+            padding: 30px;
+            text-align: center;
+        }
+        :focus{
+            outline: none;
+            box-shadow: 1px 1px 15px darkred;
+        }
+        input{
+            width: 100%;
+            background-color: transparent;
+            border: 1px solid darkred;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+        button{
+            font-family: calibri;
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: darkslateblue;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        span{
+            background-color: red;
+            width: 40%;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <button>Click</button>
-    <p id="demo"></p>
-    <script src="All1.js"></script>
+    <!-- <button>Click</button> -->
+    <!-- <p id="demo"></p> -->
+    <span></span>
+    <form>
+        <input type="number" name="Marks" id="marks" min="50" max="100" required placeholder="Enter Your Marks">
+        <br><br>
+        <button>Click Here</button>
+    </form>
+    <!-- <script src="All1.js"></script> -->
+    <script src="All2.js"></script>
+
 </body>
 
 </html>
