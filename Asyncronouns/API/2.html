@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            gap: 20px;
+            background-color: darkkhaki;
+        }
+        h1{
+            background-color: darkolivegreen;
+            color: lightcyan;
+            font-family: calibri;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        div{
+            background-color: darkslategrey;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        button{
+            padding: 10px 20px;
+            background-color: lightseagreen;
+            border: none;
+            border-radius: 10px;
+            font-family: calibri;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>History 2</h1>
+
+    <div>
+        <button class="pvr">Previous</button>
+        <button class="go">Go</button>
+        <button class="nxt">Next</button>
+    </div>
+
+    <script>
+        document.querySelector('.nxt').addEventListener('click',function(){
+            history.forward();
+        });
+
+        document.querySelector(".pvr").addEventListener('click',function(){
+            history.back();
+        });
+        document.querySelector(".go").addEventListener('click',function(){
+            location.href = "3.html";
+        });
+    </script>
+
+
+</body>
+</html>
